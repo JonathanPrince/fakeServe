@@ -1,0 +1,25 @@
+{
+  "name": "fakeServe",
+  "version": "1.0.0",
+  "description": "Server module to provide fake data endpoints",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanPrince/fakeServe.git"
+  },
+  "keywords": [
+    "fake",
+    "server",
+    "endpoints"
+  ],
+  "author": "Jonathan Prince <jonathan.prince@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanPrince/fakeServe/issues"
+  },
+  "homepage": "https://github.com/JonathanPrince/fakeServe"
+}
