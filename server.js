@@ -12,6 +12,11 @@ app.get('/', function(req, res){
   res.sendFile('index.html');
 });
 
+app.get('/user', function(req, res){
+  var user = faker.helpers.createCard();
+  res.json(user);
+});
+
 app.listen(8000, function(){
   console.log('Listening on localhost:8000...');
 });
