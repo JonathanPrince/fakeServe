@@ -17,6 +17,6 @@ app.get('/user', function(req, res){
   res.json(user);
 });
 
-app.listen(8000, function(){
-  console.log('Listening on localhost:8000...');
+app.listen(3000, function(){
+  console.log('Listening on localhost:3000...');
 });
